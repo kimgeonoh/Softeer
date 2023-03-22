@@ -31,7 +31,7 @@ toS = [0]*(n+1)
 dfs(s,adjR,toS)
 
 toT = [0]*(n+1)
-dfs(t,adj,toT)
+dfs(t,adj,toT) // adjR이 들어가야하는데 softeer에서 맞았다고 뜬다.. 왜인지 
 
 count = 0
 for i in range(1,n+1):
